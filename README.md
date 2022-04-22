@@ -1,4 +1,7 @@
-# mailcow: dockerized - 🐮 + 🐋 = 💕
+# Armifying the mailcow experience. 
+This repository aims to explore the possibility of expanding mailcow to a wider reach of architectures, such as ARM64. Current issues are: 
+
+- Sogo not working
 
 ## We stand with 🇺🇦
 
