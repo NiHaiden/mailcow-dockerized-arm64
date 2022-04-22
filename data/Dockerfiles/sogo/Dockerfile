@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm
 LABEL maintainer "Andre Peters <andre.peters@servercow.de>"
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -20,7 +20,7 @@ RUN echo "Building from repository $SOGO_DEBIAN_REPOSITORY" \
   syslog-ng-core \
   syslog-ng-mod-redis \
   dirmngr \
-  netcat \
+  netcat-openbsd \
   psmisc \
   wget \
   patch \

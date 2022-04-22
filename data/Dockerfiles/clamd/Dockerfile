@@ -1,4 +1,4 @@
-FROM clamav/clamav:0.104.2-2_base
+FROM niklashaiden/clamav-aarch64
 
 LABEL maintainer "André Peters <andre.peters@servercow.de>"
 
