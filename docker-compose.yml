@@ -58,7 +58,7 @@ services:
             - redis
 
     clamd-mailcow:
-      image: niklashaiden/clamd-mailcow
+      image: niklashaiden/clamav-mailcow
       restart: always
       dns:
         - ${IPV4_NETWORK:-172.22.1}.254
